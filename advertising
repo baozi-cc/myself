@@ -10,7 +10,7 @@ hostname = c.tieba.baidu.com,api.douban.com,erebor.douban.com,img.doubanio.com
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/logtogether\?cmd= url reject-img
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule url reject
 
-豆瓣去广告重写-matrix
+#豆瓣去广告重写-matrix
 ^https?:\/\/api\.douban\.com\/v2\/app_ads\/common_ads url reject-img
 ^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash url reject-200
 ^https?:\/\/erebor\.douban\.com\/count\/\?ad= url reject
