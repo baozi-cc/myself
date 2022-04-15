@@ -1,9 +1,17 @@
+#自用合集
+#贴吧去广告重写-matrix、豆瓣去广告重写-matrix
+
+hostname = c.tieba.baidu.com,api.douban.com,erebor.douban.com,img.doubanio.com
+
 #贴吧去广告重写-matrix
-
-hostname = c.tieba.baidu.com
-
 ^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog) url reject-200
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo url reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/p\/img\?src= url reject-img
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/logtogether\?cmd= url reject-img
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule url reject
+
+豆瓣去广告重写-matrix
+^https?:\/\/api\.douban\.com\/v2\/app_ads\/common_ads url reject-img
+^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash url reject-200
+^https?:\/\/erebor\.douban\.com\/count\/\?ad= url reject
+^https?:\/\/img\d\.doubanio\.com\/view\/dale-online\/dale_ad\/ url reject
