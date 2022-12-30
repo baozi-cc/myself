@@ -1,9 +1,9 @@
+hostname = device-box.onethingpcs.com, *.elemecdn.com, www1.elecfans.com
+
 # 网心云去开屏
-hostname = device-box.onethingpcs.com
 ^https?:\/\/device-box\.onethingpcs\.com\/v1\/visitor\/adConf url reject
 
 # 饿了么去开屏
-hostname = *.elemecdn.com, www1.elecfans.com
 ^https?:\/\/elemecdn.com\/.+\/sitemap url reject
 ^https?:\/\/fuss10.elemecdn.com\/.+\/w\/640\/h\/\d{3,4} url reject
 ^https?:\/\/fuss10.elemecdn.com\/.+\/w\/750\/h\/\d{3,4} url reject
