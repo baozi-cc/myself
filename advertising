@@ -1,5 +1,14 @@
-hostname = device-box.onethingpcs.com
+hostname = device-box.onethingpcs.com , aweme.snssdk.com
 
 # 网心云去开屏
 ^https?:\/\/device-box\.onethingpcs\.com\/v1\/visitor\/adConf url reject
 
+#抖音去广告
+^https?:\/\/.*\.(snssdk\.com|musical\.ly|amemv\.com|byteoversea\.com|tiktokv\.com)\/(vapp\/inner_ad|log|location)\/ url reject
+^https?:\/\/x?log.*\.(snssdk\.com|musical\.ly|amemv\.com|byteoversea\.com|tiktokv\.com)\/ url reject
+^https?:\/\/.+?\.(musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/ url reject-200
+^https?:\/\/.+\.musical\.ly\/.+stats url reject-img
+^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/aweme\/stats\/ url reject-img
+^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/device\/update\/ url reject-img
+^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/screen\/ad\/ url reject-img
+^https?:\/\/aweme\.snssdk\.com\/service\/2\/app_log url reject-img
