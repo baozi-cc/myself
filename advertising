@@ -3,4 +3,4 @@ hostname = device-box.onethingpcs.com ,img.mcd.cn
 # 网心云去开屏
 ^https?:\/\/device-box\.onethingpcs\.com\/v1\/visitor\/adConf url reject
 
-^https?:\/\/img\.mcd\.cn\/gallery url reject
+^https?:\/\/img\.mcd\.cn\/cms\/images\/23e6d249ddfba97d\.jpg url reject
