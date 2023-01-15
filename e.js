@@ -13,7 +13,7 @@ let body = {
     "message" : "success",
   "data" : {
     "ttl" : 0,
-    "message" : ""
+    "message" : "活动每周四十点半开始,请耐心等待~"
   },
   "status" : 0
 }
