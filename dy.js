@@ -1,5 +1,5 @@
-/**
- */
+/*
+ 
 
 let html = $response.body;
 
@@ -8,6 +8,14 @@ html =
 
 html =
   html.replace(/"status":\d+,/g, `"status":1,`);
+
+
+$done({ body: html});*/
+
+let html = $response.body;
+
+html =
+  html.replace('1===t.status?"":2===t.status?"received":"no-coupon"', `""`);
 
 
 $done({ body: html});
