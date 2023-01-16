@@ -7,7 +7,6 @@
   "status" : 0
   直接返回写法,可能要写好几个文件
 }*/
-
 let body = {
     "message" : "success",
   "data" : {
@@ -17,3 +16,22 @@ let body = {
   "status" : 0
 }
 $done({ body: JSON.stringify(body) });
+===========================================
+
+/*
+let html = $response.body;
+html =
+  html.replace(/button_type":"2",/g, `button_type":"1",`);
+html =
+  html.replace(/"status":\d+,/g, `"status":1,`);
+$done({ body: html});
+*/
+============================================
+
+let html = $response.body;
+
+html =
+  html.replace('1===t.status?"":2===t.status?"received":"no-coupon"', `""`);
+
+
+$done({ body: html});
