@@ -10,23 +10,23 @@
       "id": "test",
       "name": "test",
       "keys": [
-        "test_id1",
-        "test_id2"
+        "ck1",
+        "ck2"
       ],
       "descs_html": [
         "<p>xs</p>"
       ],
       "settings": [
         {
-          "id": "test_id1",
-          "name": "test_id1",
+          "id": "ck1",
+          "name": "ck1",
           "val": "",
           "type": "number",
           "placeholder": "",
           "desc": ""
         },{
-          "id": "test_id2",
-          "name": "test_id2",
+          "id": "ck2",
+          "name": "ck2",
           "val": "",
           "type": "number",
           "placeholder": "",
