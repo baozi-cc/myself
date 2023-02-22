@@ -7,26 +7,26 @@
   "apps": [
    
     {
-      "id": "xs",
-      "name": "xs",
+      "id": "test",
+      "name": "test",
       "keys": [
-        "tim_xs_id1",
-        "tim_xs_id2"
+        "test_id1",
+        "test_id2"
       ],
       "descs_html": [
         "<p>xs</p>"
       ],
       "settings": [
         {
-          "id": "tim_xs_id1",
-          "name": "tim_xs_id1",
+          "id": "test_id1",
+          "name": "test_id1",
           "val": "",
           "type": "number",
           "placeholder": "",
           "desc": ""
         },{
-          "id": "tim_xs_id2",
-          "name": "tim_xs_id2",
+          "id": "test_id2",
+          "name": "test_id2",
           "val": "",
           "type": "number",
           "placeholder": "",
